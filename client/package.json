@@ -4,7 +4,9 @@
   "description": "",
   "private": "true",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack --mode development",
+    "dev":"wepack-dev-server",
+    "start": "webpack --watch"
   },
   "keywords": [],
   "author": "",
